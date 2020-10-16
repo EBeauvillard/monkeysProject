@@ -1,0 +1,18 @@
+Les achievements sont placés dans les répertoires projetss5-49975/achievement0 (Version de base) et projetss5-49975/achievement1.
+
+Chaque sous-répertoire, ainsi que le répertoire projetss5-49975 , contient son propre Makefile.
+Le Makefile du répertoire projetss5-4997 a été rédigé dans le but d'éxecuter le Makefile d'un des sous-répertoires achievement*. Pour modifier le répertoire concerné par le Makefile de projetss5-4997, il faut aller modifier la variable CURRENT_DIR dans celui-ci.
+
+Dans les achievements, chaque singe dispose de son .c et de son .h décrivants ses actions.
+Les fichiers arg_test.* permettent de tester la conformité du texte fourni.
+Les fichiers display.* permettent d'afficher les statistiques propres au jeu.
+Les fichiers various.* comportent des fonctions divers qui ne méritaient pas leur propres fichiers.
+Le fichier game_main.c comporte le main de notre jeu.
+
+Tous les makefiles sont dotés de la commande "make project" permettant d'exécuter entièrement l'achievement associé.
+
+Tous les makefiles sont dotés de la commande "make test" permettant d'exécuter une série de tests que nous avons implémenté dans le but de vérifier le bon déroulement de nos fonctions.
+
+Tous les makefiles sont dotés de la commande "make clean" permettant de nettoyer les répertoires de tous les .o et des binaires.
+
+Le répertoire report comporte un Makefile avec la commande "make report" permettant d'afficher notre rapport en pdf.
