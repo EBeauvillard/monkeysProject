@@ -1,0 +1,77 @@
+
+arg_test.c,45
+void parse_opt(7,194
+void test_file(34,701
+
+arg_test.h,24
+#define arg_test_h2,19
+
+display.c,19
+void display(6,92
+
+display.h,23
+#define display_h2,18
+
+game_main.c,42
+struct pool pool 16,296
+int main(18,437
+
+monkeys_work.c,29
+void sel_monkey_work(11,192
+
+monkeys_work.h,28
+#define monkeys_work_h2,23
+
+printer.c,25
+void printer_work(9,139
+
+printer.h,23
+#define printer_h2,18
+
+queue.c,93
+struct cell* create_new_cell(7,99
+void add_word_queue(22,553
+void pull_word_queue(40,1120
+
+queue.h,351
+#define queue_h2,16
+#define MAX_WORD_LENGTH 4,33
+#define MAX_CELLS 5,60
+struct cell 7,85
+  char word[word8,99
+  int noccs;9,131
+  struct cell* next;10,144
+  int status;11,165
+struct pool 14,183
+  struct cell m[m15,197
+  struct cell* next_free;16,225
+struct queue 19,255
+  struct cell* first_cell;20,270
+  struct cell* last_cell;21,297
+
+reader.c,24
+void reader_work(8,120
+
+reader.h,22
+#define reader_h2,17
+
+statistician.c,124
+void manage_queue_stat(10,159
+void stats_work(30,740
+void max_min_occurence(54,2001
+void words_extrem_occurence(68,2462
+
+statistician.h,28
+#define statistician_h2,23
+
+various.c,25
+int random_select(7,100
+
+various.h,174
+#define various_h2,18
+#define NUMBER_MONKEYS 4,37
+struct monkeys 6,63
+  int reader;7,80
+  int printer;8,94
+  int statistician;9,109
+  int number_active_monkeys;10,129
